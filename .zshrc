@@ -70,10 +70,13 @@ ZSH_THEME="jonathan"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
-plugins=(zsh-autosuggestions)
-plugins=(sudo)
-plugins=(web-search)
+plugins=(
+  git
+  enhancd
+  zsh-autosuggestions
+  sudo
+  web-search
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -106,6 +109,9 @@ alias vi="~/.local/bin/lvim"
 alias ls="exa -la"
 alias zshconfig="vi ~/.zshrc"
 alias src="source ~/.zshrc"
+alias byobuconfig="sudo vim /usr/share/byobu/keybindings/f-keys.tmux"
+alias lvimconfig="vi ~/.config/lvim/config.lua"
+alias xclip="xclip -select clipboard"
 neofetch
 byobu
 
