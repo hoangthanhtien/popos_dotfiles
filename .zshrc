@@ -114,6 +114,7 @@ alias lvimconfig="vi ~/.config/lvim/config.lua"
 alias xclip="xclip -select clipboard"
 neofetch
 byobu
+export PATH="/home/tienhoang/.cargo/bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source /home/tinehoang/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
